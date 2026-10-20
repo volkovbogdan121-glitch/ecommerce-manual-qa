@@ -1,0 +1,25 @@
+## TC-002: Registration with a valid email
+
+**Preconditions:**
+- The registration page is open.
+- The user is not logged in.
+
+**Test Steps:**
+1. Open the registration page.
+2. Enter a valid email address.
+3. Complete the reCAPTCHA verification.
+4. Leave the newsletter subscription checkbox unchecked.
+5. Click the "Registrácia" button.
+
+**Expected Result:**
+- The registration form is submitted successfully.
+- The website redirects the user to the account page.
+- A welcome message is displayed.
+- The website informs the user that a password reset link has been sent by email.
+
+**Actual Result:**
+- The website redirected to the account page.
+- The welcome message "Ahoj, test001" was displayed.
+- The website stated that a password reset link had been sent by email.
+
+**Status:** Passed
