@@ -1,0 +1,20 @@
+## TC-004: Registration with an already registered email
+
+**Preconditions:**
+- The registration page is open.
+- An account with the test email already exists.
+
+**Test Steps:**
+1. Open the registration page in a different browser.
+2. Enter the email address associated with an existing account.
+3. Click the "Registrácia" button.
+4. Observe the website response.
+
+**Expected Result:**
+The website displays a message indicating that the email address is already registered and suggests logging in or using a different email address.
+
+**Actual Result:**
+The website displayed the following message:
+"Ошибка: Учетная запись уже зарегистрирована с помощью [email]. Войдите или используйте другой адрес электронной почты."
+
+**Status:** Passed
