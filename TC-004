@@ -1,0 +1,19 @@
+## TC-003: Registration with an invalid email format
+
+**Preconditions:**
+- The registration page is open.
+- The user is not logged in.
+
+**Test Steps:**
+1. Open the registration page.
+2. Enter an invalid email address: `test@2`.
+3. Click the "Registrácia" button.
+
+**Expected Result:**
+The website displays a validation message indicating that the email address is invalid. Registration is not completed.
+
+**Actual Result:**
+The website displayed the following error message:
+"Ошибка: Пожалуйста, введите действительный адрес электронной почты."
+
+**Status:** Passed
