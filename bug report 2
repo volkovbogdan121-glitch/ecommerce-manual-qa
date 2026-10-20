@@ -1,4 +1,4 @@
-## BUG-001: Search does not return relevant results for generic keywords
+## BUG-001: Search does not return results for the keyword "kvety"
 
 **Environment:**
 - Website: https://kvetyvictor.sk/
@@ -6,21 +6,22 @@
 - OS: Windows
 
 **Preconditions:**
-- The product listing page is open.
-- The search function is available.
+- The product catalog is available.
+- The search function is accessible.
 
 **Steps to Reproduce:**
-1. Open the product listing page.
+1. Open the website.
 2. Click the search field.
-3. Enter a generic keyword, such as "цветы".
+3. Enter "kvety".
 4. Submit the search query.
 5. Observe the search results.
 
 **Expected Result:**
-The website displays relevant products if they match the search keyword, according to the supported search languages and search rules.
+Relevant products should be displayed if the keyword matches the supported search fields and search rules.
 
 **Actual Result:**
-The website does not display relevant products for some generic keywords in Russian. Searching by a full or partial product name appears to behave differently.
+No products are displayed for the keyword "kvety".
+The keyword "kytica" returns products.
 
 **Severity:** Needs investigation
 **Priority:** Medium (provisional)
