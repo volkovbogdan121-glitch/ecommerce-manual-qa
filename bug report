@@ -1,0 +1,25 @@
+## BUG-001: Search bar overlaps product content
+
+**Environment:**
+- Website: https://kvetyvictor.sk/
+- Browser: Google Chrome
+- OS: Windows
+
+**Preconditions:**
+- The product listing page is open.
+- The search bar is visible.
+
+**Steps to Reproduce:**
+1. Open the product listing page.
+2. Scroll through the product list.
+3. Observe the position of the search bar.
+
+**Expected Result:**
+The search bar should not obscure product names, prices, or other important content while browsing the product list.
+
+**Actual Result:**
+The search bar appears over the product listing and obscures parts of the product content.
+
+**Severity:** Minor 
+**Priority:** Medium 
+**Status:** Needs confirmation
