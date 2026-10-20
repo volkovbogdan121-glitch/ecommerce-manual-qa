@@ -1,0 +1,18 @@
+Test Case ID: TC-001
+Title: Search products by keyword
+
+Preconditions:
+The demo store is open.
+
+Test Steps:
+1. Click the search field.
+2. Enter "table".
+3. Click the search button.
+
+Expected Result:
+The search results contain products matching
+the keyword "table", or a message indicates
+that no matching products were found.
+
+Actual Result: Not recorded in the test case.
+Status: Failed
