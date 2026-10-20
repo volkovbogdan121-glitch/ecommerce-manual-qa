@@ -1,0 +1,18 @@
+## TC-001: Registration with an empty email
+
+**Preconditions:**
+- The registration page is open.
+- The email field is empty.
+
+**Test Steps:**
+1. Open the registration page.
+2. Leave the email field empty.
+3. Click the "Registration" button.
+
+**Expected Result:**
+The browser displays a validation message indicating that the email field is required. The form is not submitted.
+
+**Actual Result:**
+The browser displays the validation message "Заполните это поле" and prevents form submission.
+
+**Status:** Passed
