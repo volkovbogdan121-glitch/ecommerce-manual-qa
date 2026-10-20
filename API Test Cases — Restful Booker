@@ -1,0 +1,27 @@
+TC-API-002: Get a booking with a non-existent ID
+
+Objective: Verify that the API returns an appropriate response when requesting a booking that does not exist.
+
+Preconditions:
+
+The API is accessible.
+
+No booking exists with the requested ID.
+
+Request:
+
+Method: GET
+
+URL: https://restful-booker.herokuapp.com/booking/999999999
+
+Expected Result:
+
+HTTP status code 404 Not Found.
+
+The response does not contain booking data for the requested ID.
+
+Actual Result:
+
+HTTP status code: 404 Not Found.
+
+Status: Passed
