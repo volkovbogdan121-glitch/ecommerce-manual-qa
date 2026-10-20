@@ -1,0 +1,27 @@
+## BUG-001: Search does not return relevant results for generic keywords
+
+**Environment:**
+- Website: https://kvetyvictor.sk/
+- Browser: Google Chrome
+- OS: Windows
+
+**Preconditions:**
+- The product listing page is open.
+- The search function is available.
+
+**Steps to Reproduce:**
+1. Open the product listing page.
+2. Click the search field.
+3. Enter a generic keyword, such as "цветы".
+4. Submit the search query.
+5. Observe the search results.
+
+**Expected Result:**
+The website displays relevant products if they match the search keyword, according to the supported search languages and search rules.
+
+**Actual Result:**
+The website does not display relevant products for some generic keywords in Russian. Searching by a full or partial product name appears to behave differently.
+
+**Severity:** Needs investigation
+**Priority:** Medium (provisional)
+**Status:** Needs confirmation
